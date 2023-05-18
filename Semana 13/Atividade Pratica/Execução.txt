@@ -1,0 +1,13 @@
+Execução e Teste:
+
+    Salve o código do servidor em um arquivo chamado server.py e o código do cliente em um arquivo chamado client.py.
+    Em um terminal, execute o servidor digitando python server.py.
+    Em outro terminal, execute o cliente digitando python client.py.
+    No cliente, digite uma solicitação e pressione Enter para enviá-la ao servidor.
+    No servidor, você verá a solicitação recebida e processada. O servidor enviará uma resposta de volta para o cliente.
+    Repita os passos 4 e 5 para enviar mais solicitações.
+    No cliente, digite "sair" para encerrar a aplicação cliente e a conexão com o servidor.
+    No servidor, você verá uma mensagem indicando que a conexão foi encerrada.
+
+Observações:
+Este é um exemplo básico para demonstrar o funcionamento do cliente-servidor em Python. É necessário adaptar o código às necessidades do seu Projeto Integrador, implementando recursos adicionais, como autenticação de usuário, criptografia de mensagens e a lógica específica do seu projeto. Certifique-se de realizar testes adequados para verificar a eficiência da aplicação em situações de alta demanda e documente o código desenvolvido, incluindo comentários e instruções para execução e teste da aplicação.

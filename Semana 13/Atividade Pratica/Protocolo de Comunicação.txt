@@ -1,0 +1,8 @@
+Como não tenho informações sobre o seu projeto específico, não posso definir um protocolo de comunicação preciso para ele. No entanto, você pode criar um protocolo personalizado que atenda às necessidades da sua aplicação. Isso pode incluir mensagens para autenticação, solicitação de dados, envio de dados, etc. Certifique-se de definir o formato das mensagens, incluindo cabeçalhos, campos de dados e marcações especiais, se necessário.
+
+Aqui está um exemplo simplificado que utiliza um protocolo de comunicação básico:
+
+Formato das mensagens:
+
+    Solicitação do cliente: REQ <dados>
+    Resposta do servidor: RESP <dados>
