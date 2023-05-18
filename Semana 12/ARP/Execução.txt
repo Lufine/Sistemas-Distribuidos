@@ -1,0 +1,13 @@
+Execução e Teste:
+
+    Salve o código do servidor em um arquivo chamado server.py e o código do cliente em um arquivo chamado client.py.
+    Em um terminal, execute o servidor digitando python server.py.
+    Em outro terminal, execute o cliente digitando python client.py.
+    No cliente, digite uma mensagem e pressione Enter para enviá-la ao servidor.
+    No servidor, você verá a mensagem recebida e o servidor enviará uma mensagem de confirmação de volta para o cliente.
+    Repita os passos 4 e 5 para enviar mais mensagens.
+    No cliente, digite "sair" para encerrar a aplicação cliente e a conexão com o servidor.
+    No servidor, você verá uma mensagem indicando que a conexão foi encerrada.
+
+Observações:
+Este é apenas um exemplo básico para entender o funcionamento dos sockets em uma aplicação cliente-servidor. Você pode melhorar e adicionar recursos adicionais, como autenticação de usuário ou criptografia das mensagens, conforme necessário. Lembre-se de considerar questões de segurança ao implementar sua aplicação e utilizar ferramentas como o Wireshark para testar e analisar a comunicação entre o cliente e o servidor.
