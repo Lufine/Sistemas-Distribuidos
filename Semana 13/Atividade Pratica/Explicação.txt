@@ -1,0 +1,10 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Aluno: Luiz Filipe Neuwirth
+Data: 21/05/2023
+
+Neste exemplo, o servidor e o cliente pode lidar com diferentes tipos de mensagens, cada uma com um propósito específico. 
+
+O servidor pode adicionar, remover, atualizar e buscar informações sobre os itens da despensa.
+
+Enquanto o cliente pode enviar diferentes tipos de mensagens para realizar essas operaçõe
