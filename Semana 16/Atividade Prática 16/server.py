@@ -1,14 +1,14 @@
-import xmlrpc.server
+from xmlrpc.server import SimpleXMLRPCServer
 
-class StringInverter:
-    def invert_string(self, string):
-        return string[::-1]
+def inverter_string(texto):
+    return texto[::-1]
 
-# Cria o servidor RPC
-server = xmlrpc.server.SimpleXMLRPCServer(("localhost", 8000))
-server.register_instance(StringInverter())
+def somar_numeros(a, b):
+    return a + b
 
-print("Servidor de Inversão de String iniciado. Aguardando conexões...")
+server = SimpleXMLRPCServer(("localhost", 8000))
+server.register_function(inverter_string, "inverter_string")
+server.register_function(somar_numeros, "somar_numeros")
+print("Servidor RPC iniciado. Aguardando solicitações...")
 
-# Inicia o servidor
 server.serve_forever()

@@ -1,0 +1,11 @@
+Para executar os programas, siga os passos abaixo:
+
+   1- Execute o programa do servidor RPC (server.py) primeiro em um terminal ou ambiente de execução Python.
+   2- Em seguida, execute o programa 'programa1.py' em outro terminal ou ambiente de execução Python.
+   3- No programa do 'programa1.py', insira o texto quando solicitado.
+   4- O programa do cliente enviará o texto para o servidor RPC, que inverterá o valor da string e retornará o resultado.
+   5- No programa do 'programa2.py', insira dois números quando solicitado.
+   6- O programa do cliente enviará os números para o servidor RPC, que somará os dois números e retornará o resultado.
+   7- Os programas exibiram os resultados retornados pelo servidor.
+
+Certifique-se de que ambos os programas estejam sendo executados simultaneamente para que a comunicação cliente-servidor seja estabelecida corretamente.
